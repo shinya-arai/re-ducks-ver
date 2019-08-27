@@ -1,0 +1,5 @@
+const CHANGE_CURRENT_USER = 'CHANGE_CURRENT_USER'
+
+export default {
+  CHANGE_CURRENT_USER
+}
