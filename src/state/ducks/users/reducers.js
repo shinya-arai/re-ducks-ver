@@ -14,6 +14,11 @@ const initialState = {
 
 const usersReducer = (state = initialState, action) => {
   switch(action.type) {
+    case types.CHANGE_CURRENT_USER:
+      return {
+        ...state,
+        currentUser: action.payload.newCurrentUser
+      }
     default:
       return state
   }
